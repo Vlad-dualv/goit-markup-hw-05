@@ -474,6 +474,9 @@ transform: translateY(0%);
 
 .subscribe-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     margin-left: 80px;
 }
 
@@ -501,7 +504,7 @@ transform: translateY(0%);
     height: 40px;
     font-size: 12px;
     font-weight: 400;
-    line-height: 2.0;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     color:#FFF;
